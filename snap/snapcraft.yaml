@@ -35,6 +35,15 @@ description: |
 
   **Snap-specific information**
 
+  Due to the confined nature of the snap apps, by default this snap can only access
+  the files under your home directory(excluding the dotfiles right under it).
+
+  To open and save files under the `/mnt` and the `/media` directories, connect the
+   snap to the `removable-media` interface by running the following command in a
+   terminal:
+
+      sudo snap connect mazu-editor:removable-media
+
   This is NOT an official distribution of Mazu Editor, for any problems regarding
   the use of this snap please refer to the snap's issue tracker:
 
