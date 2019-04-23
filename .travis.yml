@@ -65,8 +65,8 @@ addons:
   snaps:
     - name: shellcheck
       channel: latest/edge
-    - name: snapcraft
-      classic: true
+    #- name: snapcraft
+      #classic: true
 
 ### You can run custom commands before the installation step
 before_install: true
