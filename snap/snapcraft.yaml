@@ -7,11 +7,11 @@ summary: A minimalist text editor with syntax highlight, copy/paste, and search
 description: |
   **Usage**
 
-  Command line:
+  Command line: (_filename_ is optional)
 
-  * me `<filename>`
+      me _filename_
 
-  Keys:
+  Supported keys:
 
   * Ctrl-S: Save
   * Ctrl-Q: Quit
