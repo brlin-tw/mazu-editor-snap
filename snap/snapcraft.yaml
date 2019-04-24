@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 # app specific top-level metadata
-name: me
+name: mazu-editor
 title: Mazu Editor (UNOFFICIAL)
 summary: A minimalist text editor with syntax highlight, copy/paste, and search
 description: |
@@ -42,7 +42,7 @@ description: |
    snap to the `removable-media` interface by running the following command in a
    terminal:
 
-      sudo snap connect me:removable-media
+      sudo snap connect mazu-editor:removable-media
 
   This is NOT an official distribution of Mazu Editor, for any problems regarding
   the use of this snap please refer to the snap's issue tracker:
@@ -108,7 +108,7 @@ parts:
 
 # apps and services to be exposed to the host system
 apps:
-  me:
+  mazu-editor:
     adapter: full
     command: bin/me
     command-chain:
